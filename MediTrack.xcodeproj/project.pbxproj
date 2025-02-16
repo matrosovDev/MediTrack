@@ -29,9 +29,38 @@
 		F5CB64392D61B520002EBB56 /* MediTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F5CB64602D61B552002EBB56 /* Exceptions for "MediTrack" folder in "MediTrackTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modules/AddMedication/AddMedicationView.swift,
+				Modules/Home/Model/Medication.swift,
+				Modules/Home/View/HomeView.swift,
+				Modules/Home/ViewModel/HomeViewModel.swift,
+				Services/Database/CoreDataManager.swift,
+			);
+			target = F5CB642E2D61B520002EBB56 /* MediTrackTests */;
+		};
+		F5CB64612D61B552002EBB56 /* Exceptions for "MediTrack" folder in "MediTrackUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modules/AddMedication/AddMedicationView.swift,
+				Modules/Home/Model/Medication.swift,
+				Modules/Home/View/HomeView.swift,
+				Modules/Home/ViewModel/HomeViewModel.swift,
+				Services/Database/CoreDataManager.swift,
+			);
+			target = F5CB64382D61B520002EBB56 /* MediTrackUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F5CB641C2D61B51E002EBB56 /* MediTrack */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F5CB64602D61B552002EBB56 /* Exceptions for "MediTrack" folder in "MediTrackTests" target */,
+				F5CB64612D61B552002EBB56 /* Exceptions for "MediTrack" folder in "MediTrackUITests" target */,
+			);
 			path = MediTrack;
 			sourceTree = "<group>";
 		};

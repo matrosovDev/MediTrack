@@ -1,0 +1,53 @@
+# Xcode
+.DS_Store
+*.swp
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode project files
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/readme.md
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager artifacts
+.build/
+
+# Logs
+*.log
+
+# User-specific
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+
+# Core Data
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
