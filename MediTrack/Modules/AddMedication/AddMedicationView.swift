@@ -45,7 +45,7 @@ struct AddMedicationView: View {
     }
     
     private func addMedication() {
-        let newMedication = Medication(id: UUID(), name: name, dosage: dosage, time: time)
+        let newMedication = Medication(id: UUID().uuidString, name: name, dosage: dosage, time: time)
         viewModel.addMedication(newMedication)
         presentationMode.wrappedValue.dismiss()
     }

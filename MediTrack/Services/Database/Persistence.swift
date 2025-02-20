@@ -18,7 +18,6 @@ struct PersistenceController {
         // Test records for SwiftUI Preview
         for _ in 0..<4 {
             let newItem = MedicationEntity(context: viewContext)
-            newItem.id = UUID()
             newItem.name = "Test name"
             newItem.dosage = "Test dosage"
             newItem.time = Date()

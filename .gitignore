@@ -4,6 +4,7 @@
 *.xcworkspace
 *.xcuserstate
 *.xcscmblueprint
+*.xcscheme
 
 # Xcode project files
 project.xcworkspace/
@@ -50,4 +51,3 @@ playground.xcworkspace
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
-

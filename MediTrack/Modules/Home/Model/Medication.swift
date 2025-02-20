@@ -8,7 +8,7 @@
 import Foundation
 
 struct Medication: Identifiable {
-    let id: UUID
+    let id: String
     let name: String
     let dosage: String
     let time: Date
